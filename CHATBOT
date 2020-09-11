@@ -1,0 +1,30 @@
+print("Hello, I am fh1h and I am a chatbot")
+print("I love math and ice cream.")
+name = input("what is your name?: ")
+print("Why hello there", name, "Im glad to meet you.")
+
+#basic math section
+
+currentyear=input("What is the current year? ")
+currentage=input("What is you age? ")
+currentage=int(currentage)
+years=100-currentage
+print("You will be 100 in ", years, " years")
+currentyear=int(currentyear)
+print("That will be in ", currentyear + years)
+
+#food conversation
+
+print("I love ice cream and I kind of like pizza. ")
+food=input("How about you? What's your favorite food?: ")
+print("I like ", food, "also")
+question="That's pretty nice, how often do you eat " + food + " in a week?:"
+howoften=input(question)
+print("Wow that's nice ", howoften, " times a week, you really like it dont you. ")
+
+#good bye
+
+print("It's been a really nice day")
+print("But im getting tired, I'll chat with you later")
+print("Good Bye, have a nice day")
+Added by AmanKelkay 
